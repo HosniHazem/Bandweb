@@ -44,7 +44,6 @@ html, body {
 .nav a:hover{
     background-color: rgba(255,255,255,.3);
 }
-<<<<<<< HEAD
 .nav ul { /*all the ul in side of the nav class*/
     margin: 0;
 }
@@ -66,9 +65,6 @@ html, body {
 .na ul { /*all the ul in side of the nav class*/
     margin: 0;
 }
-=======
-
->>>>>>> c9a89fff889449c7a3cf74ae9b530656fb235726
 .main-nav {
     text-align: center;
     font-size: 1.1em; /*makes it 10% bigger so easier to read*/
@@ -88,7 +84,6 @@ html, body {
     background-size: cover; /*expand as wide or as tall as it can*/
     padding-bottom: 30px;
 }
-<<<<<<< HEAD
 .main-header1 {
     background-color: rgba(0, 0, 0, .4);
     background-image:url("../images/TheLumineers2.jpg");
@@ -97,8 +92,6 @@ html, body {
     background-size: cover; /*expand as wide or as tall as it can*/
     padding-bottom: 30px;
 }
-=======
->>>>>>> c9a89fff889449c7a3cf74ae9b530656fb235726
 
 .band-name {
     text-align: center;
@@ -172,40 +165,20 @@ html, body {
     cursor: pointer;
 }
 
-<<<<<<< HEAD
 .btn-header {
-    margin: .5em 15% 2em 15%; /*top right bottom left*/
-    color: white;
-    border: 2px solid #2D9CDB;
-    background-color: rgba(255,255,255, .1);
-    border-radius: 0;
-    font-size: 1.5em;
-    font-weight: lighter;
-    padding-left: 2em;
-    padding-right: 2em;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: #fff;
+    text-decoration: none; /* Remove underline */
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
 .btn-header:hover {
-    background-color: rgba(255, 255, 255, .3);
+    background-color: #0056b3; /* Darker shade of primary color on hover */
 }
-=======
-    .btn-header {
-        display: inline-block;
-        padding: 10px 20px;
-        background-color: #007bff; /* Bootstrap primary color */
-        color: #fff;
-        text-decoration: none; /* Remove underline */
-        border: none;
-        border-radius: 5px;
-        transition: background-color 0.3s ease;
-    }
-
-    .btn-header:hover {
-        background-color: #0056b3; /* Darker shade of primary color on hover */
-    }
-
-
->>>>>>> c9a89fff889449c7a3cf74ae9b530656fb235726
 
 .btn-play {
     display: block;
@@ -403,7 +376,6 @@ html, body {
 .content-section.news {
     background-color: #f5f5f5;
     padding: 20px;
-<<<<<<< HEAD
 }
 
 .news-articles {
@@ -484,24 +456,6 @@ html, body {
     height: 200px;
     border-radius: 8px;
 }
-=======
-  }
-  
-  .news-article {
-    margin-bottom: 20px;
-  }
-  
-  .news-article img {
-    width: 200px;
-    height: 150px;
-    float: left;
-    margin-right: 20px;
-  }
-  
-  .article-snippet {
-    margin-bottom: 10px;
-  }
-  /* Add this CSS to your existing style.css file */
 section-v {
     position: relative;
     display: flex;
@@ -545,4 +499,3 @@ section-v {
     content: '\25B6'; /* Unicode for play symbol */
     font-size: 2em;
 }
->>>>>>> c9a89fff889449c7a3cf74ae9b530656fb235726
