@@ -44,7 +44,31 @@ html, body {
 .nav a:hover{
     background-color: rgba(255,255,255,.3);
 }
+<<<<<<< HEAD
+.nav ul { /*all the ul in side of the nav class*/
+    margin: 0;
+}
 
+.na li{
+    display: inline;
+}
+
+.na a {
+    display: inline-block; /*because inline elements don't allow adding height and padding*/
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.na a:hover{
+    background-color: rgba(255,255,255,.3);
+}
+.na ul { /*all the ul in side of the nav class*/
+    margin: 0;
+}
+=======
+
+>>>>>>> c9a89fff889449c7a3cf74ae9b530656fb235726
 .main-nav {
     text-align: center;
     font-size: 1.1em; /*makes it 10% bigger so easier to read*/
@@ -64,6 +88,17 @@ html, body {
     background-size: cover; /*expand as wide or as tall as it can*/
     padding-bottom: 30px;
 }
+<<<<<<< HEAD
+.main-header1 {
+    background-color: rgba(0, 0, 0, .4);
+    background-image:url("../images/TheLumineers2.jpg");
+    background-blend-mode: multiply; /*combine color and image, otherwise only image will show*/
+
+    background-size: cover; /*expand as wide or as tall as it can*/
+    padding-bottom: 30px;
+}
+=======
+>>>>>>> c9a89fff889449c7a3cf74ae9b530656fb235726
 
 .band-name {
     text-align: center;
@@ -137,6 +172,23 @@ html, body {
     cursor: pointer;
 }
 
+<<<<<<< HEAD
+.btn-header {
+    margin: .5em 15% 2em 15%; /*top right bottom left*/
+    color: white;
+    border: 2px solid #2D9CDB;
+    background-color: rgba(255,255,255, .1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-header:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+=======
     .btn-header {
         display: inline-block;
         padding: 10px 20px;
@@ -153,6 +205,7 @@ html, body {
     }
 
 
+>>>>>>> c9a89fff889449c7a3cf74ae9b530656fb235726
 
 .btn-play {
     display: block;
@@ -350,6 +403,88 @@ html, body {
 .content-section.news {
     background-color: #f5f5f5;
     padding: 20px;
+<<<<<<< HEAD
+}
+
+.news-articles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.news-article {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.news-article:hover {
+    transform: translateY(-5px);
+}
+
+.news-article img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.news-article h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.article-snippet {
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #2D9CDB;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    text-decoration: none; /* Add this line to remove underlines on links */
+    display: inline-block;
+    padding: .5em 1em;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #57abdb;
+}
+.media-section {
+    padding: 20px;
+}
+
+.media-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.media-gallery img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.video-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.video-gallery iframe {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+}
+=======
   }
   
   .news-article {
@@ -410,3 +545,4 @@ section-v {
     content: '\25B6'; /* Unicode for play symbol */
     font-size: 2em;
 }
+>>>>>>> c9a89fff889449c7a3cf74ae9b530656fb235726
