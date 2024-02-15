@@ -110,8 +110,15 @@ html, body {
     margin: 1em;
 }
 
-.container {
+.container1 {
+    
     max-width: 900px;
+    margin: 0 auto; 
+    padding: 0 1.5em;
+}
+.container2 {
+    
+    max-width: 249px;
     margin: 0 auto; 
     padding: 0 1.5em;
 }
@@ -431,7 +438,13 @@ html, body {
 .media-section {
     padding: 20px;
 }
-
+.background-clip{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+}
 .media-gallery {
     display: flex;
     flex-wrap: wrap;
@@ -461,14 +474,14 @@ section-v {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh; /* Adjust as needed */
+    height: 100%; /* Adjust as needed */
+    width: 100%;
 }
 
 .video-container {
     position: relative;
-    width: 60%; /* Adjust as needed */
-    max-width: 800px; /* Adjust as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; /* Adjust as needed */
+    height: 100%; /* Maintain aspect ratio */
 }
 
 .video-overlay {
